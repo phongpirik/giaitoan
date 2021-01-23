@@ -1,0 +1,1 @@
+{"answers": [{"idx": 100, "base": ["a"], "concept": "b", "value": 3.0}, {"idx": 2, "base": ["a", "b", "c"], "concept": "cosB", "value": 0.9048}, {"idx": 0, "base": ["cosB"], "concept": "gocB", "value": 25.2036}], "facts": [6, 3.0, 7, 58.4125, 25.2036, null, null, null, null, null, null, null, null]}
