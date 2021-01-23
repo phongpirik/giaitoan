@@ -1,0 +1,195 @@
+{
+  "rules": [
+    {
+      "idx": 1,
+      "name": "dinh ly cosin",
+      "concepts": [
+        "a",
+        "b",
+        "c",
+        "cosA"
+      ],
+      "expression": "b*b + c*c - a*a - 2*b*c*cosA"
+    },
+    {
+      "idx": 2,
+      "name": "dinh ly cosin",
+      "concepts": [
+        "a",
+        "b",
+        "c",
+        "cosB"
+      ],
+      "expression": "a*a + c*c - b*b - 2*a*c*cosB"
+    },
+    {
+      "idx": 3,
+      "name": "dinh ly cosin",
+      "concepts": [
+        "a",
+        "b",
+        "c",
+        "cosC"
+      ],
+      "expression": "a*a + b*b - c*c - 2*a*b*cosC"
+    },
+    {
+      "idx": 4,
+      "name": "dinh ly sin",
+      "concepts": [
+        "a",
+        "sinA",
+        "R"
+      ],
+      "expression": "a - 2*R*sinA"
+    },
+    {
+      "idx": 5,
+      "name": "dinh ly sin",
+      "concepts": [
+        "b",
+        "sinB",
+        "R"
+      ],
+      "expression": "b - 2*R*sinB"
+    },
+    {
+      "idx": 6,
+      "name": "dinh ly sin",
+      "concepts": [
+        "c",
+        "sinC",
+        "R"
+      ],
+      "expression": "c - 2*R*sinC"
+    },
+    {
+      "idx": 7,
+      "name": "cong thuc duong cao",
+      "concepts": [
+        "a",
+        "ha",
+        "S"
+      ],
+      "expression": "a*ha - 2*S"
+    },
+    {
+      "idx": 8,
+      "name": "cong thuc dien tich",
+      "concepts": [
+        "b",
+        "hb",
+        "S"
+      ],
+      "expression": "b*hb - 2*S"
+    },
+    {
+      "idx": 9,
+      "name": "cong thuc dien tich",
+      "concepts": [
+        "c",
+        "hc",
+        "S"
+      ],
+      "expression": "c*hc - 2*S"
+    },
+    {
+      "idx": 9,
+      "name": "cong thuc dien tich",
+      "concepts": [
+        "c",
+        "hc",
+        "S"
+      ],
+      "expression": "c*hc - 2*S"
+    },
+    {
+      "idx": 10,
+      "name": "cong thuc dien tich",
+      "concepts": [
+        "a",
+        "b",
+        "sinC",
+        "S"
+      ],
+      "expression": "a*b*sinC - 2*S"
+    },
+    {
+      "idx": 11,
+      "name": "cong thuc dien tich",
+      "concepts": [
+        "a",
+        "c",
+        "sinB",
+        "S"
+      ],
+      "expression": "a*c*sinB - 2*S"
+    },
+    {
+      "idx": 12,
+      "name": "cong thuc dien tich",
+      "concepts": [
+        "b",
+        "c",
+        "sinA",
+        "S"
+      ],
+      "expression": "b*c*sinA - 2*S"
+    },
+    {
+      "idx": 13,
+      "name": "cong thuc Heron",
+      "concepts": [
+        "a",
+        "b",
+        "c",
+        "p",
+        "S"
+      ],
+      "expression": "p*(p-a)*(p-b)*(p-c) - S*S"
+    },
+    {
+      "idx": 14,
+      "name": "cong thuc ban kinh duong tron ngoai tiep",
+      "concepts": [
+        "a",
+        "b",
+        "c",
+        "R",
+        "S"
+      ],
+      "expression": "a*b*c - 4*S*R"
+    },
+    {
+      "idx": 14,
+      "name": "cong thuc ban kinh duong tron noi tiep",
+      "concepts": [
+        "r",
+        "p",
+        "S"
+      ],
+      "expression": "r*p - S"
+    },
+    {
+      "idx": 15,
+      "name": "cong thuc nua chu vi",
+      "concepts": [
+        "a",
+        "b",
+        "c",
+        "p"
+      ],
+      "expression": "p - (a + b + c)/2"
+    },
+    {
+      "idx": 16,
+      "name": "cong thuc tong 3 goc",
+      "concepts": [
+        "gocA",
+        "gocB",
+        "gocC"
+      ],
+      "expression": "gocA + gocB + gocC - 180"
+    }
+  ]
+}
